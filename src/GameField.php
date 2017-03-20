@@ -44,14 +44,14 @@ class GameField
 			{
 				$height = $bird->getHeight();
 				$location = $bird->getLocation();
-				$hit = $location->x == $x && $location->y == $y && height == $h;
+				$hit = $location->x == $x && $location->y == $y && $height == $h;
 				if ($hit) {
 					$bird->sing();
 					break;
 				}
 			}
 		}
-		return hit;
+		return $hit;
 	}
 
 	//Place the birds on the fields

@@ -4,7 +4,7 @@ class Chicken extends Bird
 {
 	public function sing() 
 	{
-		console.log('Cluck');
+		echo 'Cluck';
 	}
 
 	public function setHeight($height) 
