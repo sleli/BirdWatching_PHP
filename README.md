@@ -8,3 +8,9 @@ I presented this game at several conferences and you can find the proposed solut
 2. [Better Software 2011 Presentation](http://www.slideshare.net/raist81/codice-legacy-usciamo-dal-pantano) [SLIDE ITA]
 
 3. [Italian Agile Day 2011 Presentation](http://www.slideshare.net/raist81/codice-legacy-usciamo-dal-pantano-iad11) [SLIDE ITA]
+
+
+### Instruction:
+1. Install PHP 5.6 or higher
+2. Install [PHPUnit] (https://phpunit.de/getting-started.html)
+3. Launch phpunit test/BirdWatchingTest.php
