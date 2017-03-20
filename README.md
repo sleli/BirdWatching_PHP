@@ -13,4 +13,4 @@ I presented this game at several conferences and you can find the proposed solut
 ### Instruction:
 1. Install PHP 5.6 or higher
 2. Install [PHPUnit] (https://phpunit.de/getting-started.html)
-3. Launch phpunit test/BirdWatchingTest.php
+3. Launch: *phpunit test/BirdWatchingTest.php*
