@@ -29,6 +29,6 @@ class FieldSize
 
   public function isWithinField($h, $x, $y) 
   {
-    return $h >= 0 && $h <= $this->depth && ($x >= 0 && $x <= $this->width && y >= 0 && $y <= $this->height);
+    return $h >= 0 && $h <= $this->depth && ($x >= 0 && $x <= $this->width && $y >= 0 && $y <= $this->height);
   }
 }

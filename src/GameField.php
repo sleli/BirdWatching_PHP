@@ -17,7 +17,6 @@ class GameField
 	public function addBird($bird) 
 	{
 		array_push($this->birds, $bird);
-		//echo 'Birds: ' . intval($this->birds->length); 
 	}
 
 	//Start the game
