@@ -11,7 +11,7 @@ class GameField
 		$this->depth = $depth;
 		$this->fieldSize = $fieldSize;
 		$this->birds = array();
-		$this->gameStarted = $alse;
+		$this->gameStarted = false;
 	}
 
 	public function addBird($bird) 
